@@ -1,0 +1,361 @@
+#blokk{
+    width:320px;
+    height:20px;
+    margin-top:195px;
+    margin-left:29px;
+   
+    position: absolute;
+    display: flex;
+   
+}
+
+.anime{
+    animation-duration: 0.3s;
+    animation-name: ddd;
+    animation-timing-function: ease-in;
+}
+@keyframes ddd {
+    from{
+        margin-top:50px;
+        transform:rotate(180deg);
+        transform: scale3d(1.2);
+        
+    
+    }
+    
+    to{
+        margin-left: 0px;
+        
+       
+    }
+}
+
+
+#front{
+    width: 345px;
+    height: 218px;
+    border-radius: 15px;
+    margin-left:105px;
+    margin-top: 20px;
+    
+    background-image: url(credit.PNG);
+    box-shadow:  2px 2px 150px 2px rgb(17, 17, 17);
+    
+    
+    
+    
+}
+
+.ltr{
+  display:table;
+  margin-top:0px;
+  font-weight: bold;
+  font-style:oblique;
+  font-size: 18px;
+  
+  
+   
+
+   
+}
+
+
+
+#one{
+   
+    font-size:25px;
+        display: table;
+    
+  
+    
+   
+}
+
+
+
+#two{
+  
+    display: table;
+    font-size:25px;
+
+    
+}
+
+#three{
+   
+    display: table;
+    font-size:25px;
+
+  
+    
+}
+
+#four{
+    
+    display: table;
+    font-size:25px;
+ 
+   
+    
+}
+
+#five{
+   
+    font-size:25px;
+        display: table;
+    
+  
+    
+   
+}
+
+
+
+#six{
+  
+    display: table;
+    font-size:25px;
+
+    
+}
+
+#seven{
+   
+    display: table;
+    font-size:25px;
+
+  
+    
+}
+
+#eight{
+    
+    display: table;
+    font-size:25px;
+ 
+   
+    
+}
+
+#one{
+   
+    font-size:25px;
+        display: table;
+        font-weight: bold;
+  
+    
+   
+}
+
+
+
+#two{
+  
+    display: table;
+    font-size:25px;
+    font-weight: bold;
+    
+}
+
+#three{
+   
+    display: table;
+    font-size:25px;
+    font-weight: bold;
+  
+    
+}
+
+#four{
+    
+    display: table;
+    font-size:25px;
+    font-weight: bold;
+   
+    
+}
+
+#numb{
+    
+    display: flex;
+    width:270px;
+    margin-left: 35px;
+    margin-top: 110px;
+    position: absolute;
+}
+
+#word2{
+    display: flex;
+    margin-left: 20px;;
+    font-weight: bold;
+}
+
+#word3{
+    display: flex;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#word4{
+    display: flex;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@keyframes ff{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(180deg);
+        background-image: url(1610692.jpg);
+    }
+}
+
+#month{
+    width:100px;
+    height:17px;
+    
+    position: absolute;
+    display: flex;
+    margin-top: -60px;
+    margin-left: 255px;
+ 
+    
+}
+
+.valid{
+    width:20px;
+   
+    
+    
+}
+#baj{
+    font-weight: bold;
+    width:5px;
+}
+
+#cvc{
+    width:60px;
+    height:25px;
+  
+    position:absolute;
+    margin-top: 85px;
+    margin-left: 215px;
+    opacity: 0;
+    display: flex;
+}
+
+.cvv{
+    width:10px;
+
+
+}
+
+
+#inputblok{
+    width:500px;
+    height:400px;
+    box-shadow:  10px 10px 170px 15px rgb(17, 17, 17);
+    background-color: white;
+    margin-top: -90px;
+    margin-left: 30px;
+    border-radius: 10px;
+    
+}
+
+#txt{
+    position: absolute;
+    margin-top: 120px;
+    width:470px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid rgb(170, 168, 168);
+    margin-left: 10px;
+}
+
+#ex{
+    position: absolute;
+    margin-top: 190px;
+    width:470px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid rgb(170, 168, 168);
+    margin-left: 10px;
+}
+
+#txtmonth{
+    position: absolute;
+    margin-top: 270px;
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(170, 168, 168);
+    margin-left: 330px;
+}
+
+body{
+    background-color: rgb(169, 250, 243);
+}
+
+#date{
+position: absolute;
+margin-top: 270px;
+width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+#date2{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 180px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#txtmonth::after{
+    border:1px solid blue
+}
+
+#submit{
+    position: absolute;
+    width:450px;
+    height:40px;
+    margin-top: 350px;
+    background-color: rgb(68, 86, 247);
+    color:white;
+    margin-left: 20px;
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 5px;
+}
+
+#txttext{
+    position: absolute;
+    margin-top: 100px;
+    font-size: small;
+    margin-left: 15px;;
+}
+
+#extext{
+    position: absolute;
+    margin-top: 170px;
+    font-size: small;
+    margin-left: 15px;;
+}
+#txtmonthtext{
+    position: absolute;
+    margin-top: 240px;
+    font-size: small;
+    margin-left: 15px;;
+}
+
+#cvv{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 360px;
+}

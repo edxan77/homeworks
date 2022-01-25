@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="ex.css" />
+  </head>
+  <body id="bd">
+    <div id="front">
+      <div id="numb">
+        <div id="one" class="word">#</div>
+        <div id="two" class="word">#</div>
+        <div id="three" class="word">#</div>
+        <div id="four" class="word">#</div>
+        <div id="word2">
+          <div id="five" class="word2">#</div>
+          <div id="six" class="word2">#</div>
+          <div id="seven" class="word2">#</div>
+          <div id="eight" class="word2">#</div>
+        </div>
+        <div id="word3">
+          <div id="nine" class="word2">#</div>
+          <div id="ten" class="word2">#</div>
+          <div id="eleven" class="word2">#</div>
+          <div id="twelve" class="word2">#</div>
+        </div>
+        <div id="word4">
+          <div id="thrt" class="word2">#</div>
+          <div id="fourt" class="word2">#</div>
+          <div id="fivt" class="word2">#</div>
+          <div id="sixt" class="word2">#</div>
+        </div>
+      </div>
+
+      <div id="blokk">
+        <div class="ltr" id="blok"></div>
+        <div class="ltr" id="bl"></div>
+        <div class="ltr" id="l3"></div>
+        <div class="ltr" id="l4"></div>
+        <div class="ltr" id="l5"></div>
+        <div class="ltr" id="l6"></div>
+        <div class="ltr" id="l7"></div>
+        <div class="ltr" id="l8"></div>
+        <div class="ltr" id="l9"></div>
+        <div class="ltr" id="l10"></div>
+        <div class="ltr" id="l11"></div>
+        <div class="ltr" id="l12"></div>
+        <div class="ltr" id="l13"></div>
+        <div class="ltr" id="l14"></div>
+        <div class="ltr" id="l15"></div>
+        <div class="ltr" id="l16"></div>
+        <div class="ltr" id="l17"></div>
+        <div class="ltr" id="l18"></div>
+        <div class="ltr" id="l19"></div>
+        <div class="ltr" id="l20"></div>
+        <div class="ltr" id="l21"></div>
+        <div class="ltr" id="l22"></div>
+        <div class="ltr" id="l23"></div>
+        <div class="ltr" id="l24"></div>
+        <div class="ltr" id="l25"></div>
+        <div class="ltr" id="l26"></div>
+        <div class="ltr" id="l27"></div>
+        <div class="ltr" id="l28"></div>
+        <div class="ltr" id="l29"></div>
+        <div class="ltr" id="l30"></div>
+      </div>
+
+      <div id="cvc">
+        <div id="c1" class="cvv"></div>
+        <div id="c2" class="cvv"></div>
+        <div id="c3" class="cvv"></div>
+      </div>
+    </div>
+
+    <div id="month">
+      <div class="valid" id="vld1"></div>
+      <div class="valid" id="baj">/</div>
+      <div class="valid" id="vld2"></div>
+    </div>
+
+    <div id="inputblok">
+      <span id="txttext">Card Name</span>
+      <span id="extext">Card Number</span>
+      <span id="txtmonthtext">Expiration Date</span>
+
+      <input type="text" id="txt" />
+
+      <input type="text" id="ex" />
+      <span id ="cvv">CVV</span>
+      <input type="text" id="txtmonth" />
+
+      <select id="date">
+        <option>Month</option>
+        <option>01</option>
+        <option>02</option>
+        <option>03</option>
+        <option>04</option>
+        <option>05</option>
+        <option>06</option>
+        <option>07</option>
+        <option>08</option>
+        <option>09</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+      </select>
+
+      <select id="date2">
+        <option>Year</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+      </select>
+      <button id="submit">SUBMIT</button>
+    </div>
+
+    <script src="anime.min.js"></script>
+    <script>
+      var blockMove = anime({
+        targets: "#one",
+        rotateX: "720",
+
+        duration: 1700,
+        autoplay: false,
+      });
+
+      var blockMove2 = anime({
+        targets: "#two",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+
+      var blockMove3 = anime({
+        targets: "#three",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+
+      var blockMove4 = anime({
+        targets: "#four",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+
+      var blockMove5 = anime({
+        targets: "#five",
+        rotateX: "720",
+
+        duration: 1700,
+        autoplay: false,
+      });
+
+      var blockMove6 = anime({
+        targets: "#six",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+
+      var blockMove7 = anime({
+        targets: "#seven",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+
+      var blockMove8 = anime({
+        targets: "#eight",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+      var blockMove9 = anime({
+        targets: "#nine",
+        rotateX: "720",
+
+        duration: 1700,
+        autoplay: false,
+      });
+
+      var blockMove10 = anime({
+        targets: "#ten",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+
+      var blockMove11 = anime({
+        targets: "#eleven",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+
+      var blockMove12 = anime({
+        targets: "#twelve",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+      var blockMove13 = anime({
+        targets: "#thrt",
+        rotateX: "720",
+
+        duration: 1700,
+        autoplay: false,
+      });
+
+      var blockMove14 = anime({
+        targets: "#fourt",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+
+      var blockMove15 = anime({
+        targets: "#fivt",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+
+      var blockMove16 = anime({
+        targets: "#sixt",
+        rotateX: "720",
+        duration: 1000,
+        autoplay: false,
+      });
+
+      var frontflip = anime({
+        targets: "#front",
+        rotateY: "360",
+        duration: 5000,
+        autoplay: false,
+      });
+
+      var count = 0;
+      var counttwo = 0;
+      var countthree = 0;
+      var countfour = 0;
+      var countfive = 0;
+      var countsix = 0;
+      var countseven = 0;
+      var counteight = 0;
+      var countnine = 0;
+      var countten = 0;
+      var counteleven = 0;
+      var counttwelve = 0;
+      var countthrt = 0;
+      var countfourt = 0;
+      var countfivt = 0;
+      var countsixt = 0;
+
+      document.getElementById("ex").addEventListener("input", function () {
+        document.getElementById("one").innerText = this.value
+          .toString()
+          .charAt(0);
+        document.getElementById("two").innerText = this.value
+          .toString()
+          .charAt(1);
+        document.getElementById("three").innerText = this.value
+          .toString()
+          .charAt(2);
+        document.getElementById("four").innerText = this.value
+          .toString()
+          .charAt(3);
+        document.getElementById("five").innerText = this.value
+          .toString()
+          .charAt(4);
+        document.getElementById("six").innerText = this.value
+          .toString()
+          .charAt(5);
+        document.getElementById("seven").innerText = this.value
+          .toString()
+          .charAt(6);
+        document.getElementById("eight").innerText = this.value
+          .toString()
+          .charAt(7);
+        document.getElementById("nine").innerText = this.value
+          .toString()
+          .charAt(8);
+        document.getElementById("ten").innerText = this.value
+          .toString()
+          .charAt(9);
+        document.getElementById("eleven").innerText = this.value
+          .toString()
+          .charAt(10);
+        document.getElementById("twelve").innerText = this.value
+          .toString()
+          .charAt(11);
+        document.getElementById("thrt").innerText = this.value
+          .toString()
+          .charAt(12);
+        document.getElementById("fourt").innerText = this.value
+          .toString()
+          .charAt(13);
+        document.getElementById("fivt").innerText = this.value
+          .toString()
+          .charAt(14);
+        document.getElementById("sixt").innerText = this.value
+          .toString()
+          .charAt(15);
+
+        document.getElementById("one").innerText !== "" ? count++ : (count = 0);
+        document.getElementById("two").innerText !== ""
+          ? counttwo++
+          : (counttwo = 0);
+        document.getElementById("three").innerText !== ""
+          ? countthree++
+          : (countthree = 0);
+        document.getElementById("four").innerText !== ""
+          ? countfour++
+          : (countfour = 0);
+        document.getElementById("five").innerText !== ""
+          ? countfive++
+          : (countfive = 0);
+        document.getElementById("six").innerText !== ""
+          ? countsix++
+          : (countsix = 0);
+        document.getElementById("seven").innerText !== ""
+          ? countseven++
+          : (countseven = 0);
+        document.getElementById("eight").innerText !== ""
+          ? counteight++
+          : (counteight = 0);
+        document.getElementById("nine").innerText !== ""
+          ? countnine++
+          : (countnine = 0);
+        document.getElementById("ten").innerText !== ""
+          ? countten++
+          : (countten = 0);
+        document.getElementById("eleven").innerText !== ""
+          ? counteleven++
+          : (counteleven = 0);
+        document.getElementById("twelve").innerText !== ""
+          ? counttwelve++
+          : (counttwelve = 0);
+        document.getElementById("thrt").innerText !== ""
+          ? countthrt++
+          : (countthrt = 0);
+        document.getElementById("fourt").innerText !== ""
+          ? countfourt++
+          : (countfourt = 0);
+        document.getElementById("fivt").innerText !== ""
+          ? countfivt++
+          : (countfivt = 0);
+        document.getElementById("sixt").innerText !== ""
+          ? countsixt++
+          : (countsixt = 0);
+
+        if (count == 1) blockMove.restart();
+        if (count == 0) blockMove.restart();
+        if (counttwo == 0 && count > 1) blockMove2.restart();
+        if (counttwo == 1 && count > 1) blockMove2.restart();
+        if (countthree == 1) blockMove3.restart();
+        if (countthree == 0 && counttwo > 1) blockMove3.restart();
+        if (countfour == 1) blockMove4.restart();
+        if (countfour == 0 && countthree > 1) blockMove4.restart();
+        if (countfive == 1 && countfour > 1) blockMove5.restart();
+        if (countfive == 0 && countfour > 1) blockMove5.restart();
+        if (countsix == 1 && countfive > 1) blockMove6.restart();
+        if (countsix == 0 && countfive > 1) blockMove6.restart();
+        if (countseven == 1 && countsix > 1) blockMove7.restart();
+        if (countseven == 0 && countsix > 1) blockMove7.restart();
+        if (counteight == 1 && countseven > 1) blockMove8.restart();
+        if (counteight == 0 && countseven > 1) blockMove8.restart();
+        if (countnine == 1 && counteight > 1) blockMove9.restart();
+        if (countnine == 0 && counteight > 1) blockMove9.restart();
+        if (countten == 1 && countnine > 1) blockMove10.restart();
+        if (countten == 0 && countnine > 1) blockMove10.restart();
+        if (counteleven == 1 && countten > 1) blockMove11.restart();
+        if (counteleven == 0 && countten > 1) blockMove11.restart();
+        if (counttwelve == 1 && counteleven > 1) blockMove12.restart();
+        if (counttwelve == 0 && counteleven > 1) blockMove12.restart();
+        if (countthrt == 1 && counttwelve > 1) blockMove13.restart();
+        if (countthrt == 0 && counttwelve > 1) blockMove13.restart();
+        if (countfourt == 1 && countthrt > 1) blockMove14.restart();
+        if (countfourt == 0 && countthrt > 1) blockMove14.restart();
+        if (countfivt == 1 && countfourt > 1) blockMove15.restart();
+        if (countfivt == 0 && countfourt > 1) blockMove15.restart();
+        if (countsixt == 1 && countfivt > 1) blockMove16.restart();
+        if (countsixt == 0 && countfivt > 1) blockMove16.restart();
+
+        if (document.getElementById("one").innerText == "")
+          document.getElementById("one").innerText = "#";
+        if (document.getElementById("two").innerText == "")
+          document.getElementById("two").innerText = "#";
+        if (document.getElementById("three").innerText == "")
+          document.getElementById("three").innerText = "#";
+        if (document.getElementById("four").innerText == "")
+          document.getElementById("four").innerText = "#";
+        if (document.getElementById("five").innerText == "")
+          document.getElementById("five").innerText = "#";
+        if (document.getElementById("six").innerText == "")
+          document.getElementById("six").innerText = "#";
+        if (document.getElementById("seven").innerText == "")
+          document.getElementById("seven").innerText = "#";
+        if (document.getElementById("eight").innerText == "")
+          document.getElementById("eight").innerText = "#";
+        if (document.getElementById("nine").innerText == "")
+          document.getElementById("nine").innerText = "#";
+        if (document.getElementById("ten").innerText == "")
+          document.getElementById("ten").innerText = "#";
+        if (document.getElementById("eleven").innerText == "")
+          document.getElementById("eleven").innerText = "#";
+        if (document.getElementById("twelve").innerText == "")
+          document.getElementById("twelve").innerText = "#";
+        if (document.getElementById("thrt").innerText == "")
+          document.getElementById("thrt").innerText = "#";
+        if (document.getElementById("fourt").innerText == "")
+          document.getElementById("fourt").innerText = "#";
+        if (document.getElementById("fivt").innerText == "")
+          document.getElementById("fivt").innerText = "#";
+        if (document.getElementById("sixt").innerText == "")
+          document.getElementById("sixt").innerText = "#";
+
+        console.log(count);
+        console.log(counttwo);
+        console.log(countthree);
+      });
+
+      var count = 0;
+      var count2 = 0;
+      var count3 = 0;
+      var count4 = 0;
+      var count5 = 0;
+      var count6 = 0;
+      var count7 = 0;
+      var count8 = 0;
+      var count9 = 0;
+      var count10 = 0;
+      var count11 = 0;
+      var count12 = 0;
+      var count13 = 0;
+      var count14 = 0;
+      var count15 = 0;
+      var count16 = 0;
+      var count17 = 0;
+      var count18 = 0;
+      var count19 = 0;
+      var count21 = 0;
+      var count22 = 0;
+      var count23 = 0;
+      var count24 = 0;
+      var count25 = 0;
+      var count26 = 0;
+      var count27 = 0;
+      var count28 = 0;
+      var count29 = 0;
+      var count30 = 0;
+      let blok = document.getElementById("txt");
+
+      blok.addEventListener("input", function () {
+        document.getElementById("blok").innerText = blok.value
+          .toString()
+          .charAt(0);
+        document.getElementById("bl").innerText = blok.value
+          .toString()
+          .charAt(1);
+        document.getElementById("l3").innerText = blok.value
+          .toString()
+          .charAt(2);
+        document.getElementById("l4").innerText = blok.value
+          .toString()
+          .charAt(3);
+        document.getElementById("l5").innerText = blok.value
+          .toString()
+          .charAt(4);
+        document.getElementById("l6").innerText = blok.value
+          .toString()
+          .charAt(5);
+        document.getElementById("l7").innerText = blok.value
+          .toString()
+          .charAt(6);
+        document.getElementById("l8").innerText = blok.value
+          .toString()
+          .charAt(7);
+        document.getElementById("l9").innerText = blok.value
+          .toString()
+          .charAt(8);
+        document.getElementById("l10").innerText = blok.value
+          .toString()
+          .charAt(9);
+        document.getElementById("l11").innerText = blok.value
+          .toString()
+          .charAt(10);
+        document.getElementById("l12").innerText = blok.value
+          .toString()
+          .charAt(11);
+        document.getElementById("l13").innerText = blok.value
+          .toString()
+          .charAt(12);
+        document.getElementById("l14").innerText = blok.value
+          .toString()
+          .charAt(13);
+        document.getElementById("l15").innerText = blok.value
+          .toString()
+          .charAt(14);
+        document.getElementById("l16").innerText = blok.value
+          .toString()
+          .charAt(15);
+        document.getElementById("l17").innerText = blok.value
+          .toString()
+          .charAt(16);
+        document.getElementById("l18").innerText = blok.value
+          .toString()
+          .charAt(17);
+        document.getElementById("l19").innerText = blok.value
+          .toString()
+          .charAt(18);
+        document.getElementById("l20").innerText = blok.value
+          .toString()
+          .charAt(19);
+        document.getElementById("l21").innerText = blok.value
+          .toString()
+          .charAt(20);
+        document.getElementById("l22").innerText = blok.value
+          .toString()
+          .charAt(21);
+        document.getElementById("l23").innerText = blok.value
+          .toString()
+          .charAt(22);
+        document.getElementById("l24").innerText = blok.value
+          .toString()
+          .charAt(23);
+        document.getElementById("l25").innerText = blok.value
+          .toString()
+          .charAt(24);
+        document.getElementById("l26").innerText = blok.value
+          .toString()
+          .charAt(25);
+        document.getElementById("l27").innerText = blok.value
+          .toString()
+          .charAt(26);
+        document.getElementById("l28").innerText = blok.value
+          .toString()
+          .charAt(27);
+        document.getElementById("l29").innerText = blok.value
+          .toString()
+          .charAt(28);
+        document.getElementById("l30").innerText = blok.value
+          .toString()
+          .charAt(29);
+
+        blok.value.toString().charAt(0) != "" ? count++ : (count = 0);
+        blok.value.toString().charAt(1) != "" ? count2++ : (count2 = 0);
+        blok.value.toString().charAt(2) != "" ? count3++ : (count3 = 0);
+        blok.value.toString().charAt(3) != "" ? count4++ : (count4 = 0);
+        blok.value.toString().charAt(4) != "" ? count5++ : (count5 = 0);
+        blok.value.toString().charAt(5) != "" ? count6++ : (count6 = 0);
+        blok.value.toString().charAt(6) != "" ? count7++ : (count7 = 0);
+        blok.value.toString().charAt(7) != "" ? count8++ : (count8 = 0);
+        blok.value.toString().charAt(8) != "" ? count9++ : (count9 = 0);
+        blok.value.toString().charAt(9) != "" ? count10++ : (count10 = 0);
+        blok.value.toString().charAt(10) != "" ? count11++ : (count11 = 0);
+        blok.value.toString().charAt(11) != "" ? count12++ : (count12 = 0);
+        blok.value.toString().charAt(12) != "" ? count13++ : (count13 = 0);
+        blok.value.toString().charAt(13) != "" ? count14++ : (count14 = 0);
+        blok.value.toString().charAt(14) != "" ? count15++ : (count15 = 0);
+        blok.value.toString().charAt(15) != "" ? count16++ : (count16 = 0);
+        blok.value.toString().charAt(16) != "" ? count17++ : (count17 = 0);
+        blok.value.toString().charAt(17) != "" ? count18++ : (count18 = 0);
+        blok.value.toString().charAt(18) != "" ? count19++ : (count19 = 0);
+        blok.value.toString().charAt(19) != "" ? count20++ : (count20 = 0);
+        blok.value.toString().charAt(20) != "" ? count21++ : (count21 = 0);
+        blok.value.toString().charAt(21) != "" ? count22++ : (count22 = 0);
+        blok.value.toString().charAt(22) != "" ? count23++ : (count23 = 0);
+        blok.value.toString().charAt(23) != "" ? count24++ : (count24 = 0);
+        blok.value.toString().charAt(24) != "" ? count25++ : (count25 = 0);
+        blok.value.toString().charAt(25) != "" ? count26++ : (count26 = 0);
+        blok.value.toString().charAt(26) != "" ? count27++ : (count27 = 0);
+        blok.value.toString().charAt(27) != "" ? count28++ : (count28 = 0);
+        blok.value.toString().charAt(28) != "" ? count29++ : (count29 = 0);
+        blok.value.toString().charAt(29) != "" ? count30++ : (count30 = 0);
+
+        blok.value.toString().charAt(1) == " "
+          ? (document.getElementById("bl").style.marginLeft = "5px")
+          : (document.getElementById("bl").style.marginLeft = "0px");
+        blok.value.toString().charAt(2) == " "
+          ? (document.getElementById("l3").style.marginLeft = "5px")
+          : (document.getElementById("l3").style.marginLeft = "0px");
+        blok.value.toString().charAt(3) == " "
+          ? (document.getElementById("l4").style.marginLeft = "5px")
+          : (document.getElementById("l4").style.marginLeft = "0px");
+        blok.value.toString().charAt(4) == " "
+          ? (document.getElementById("l5").style.marginLeft = "5px")
+          : (document.getElementById("l5").style.marginLeft = "0px");
+        blok.value.toString().charAt(5) == " "
+          ? (document.getElementById("l6").style.marginLeft = "5px")
+          : (document.getElementById("l6").style.marginLeft = "0px");
+        blok.value.toString().charAt(6) == " "
+          ? (document.getElementById("l7").style.marginLeft = "5px")
+          : (document.getElementById("l7").style.marginLeft = "0px");
+        blok.value.toString().charAt(7) == " "
+          ? (document.getElementById("l8").style.marginLeft = "5px")
+          : (document.getElementById("l8").style.marginLeft = "0px");
+        blok.value.toString().charAt(8) == " "
+          ? (document.getElementById("l9").style.marginLeft = "5px")
+          : (document.getElementById("l9").style.marginLeft = "0px");
+        blok.value.toString().charAt(9) == " "
+          ? (document.getElementById("l10").style.marginLeft = "5px")
+          : (document.getElementById("l10").style.marginLeft = "0px");
+        blok.value.toString().charAt(10) == " "
+          ? (document.getElementById("l11").style.marginLeft = "5px")
+          : (document.getElementById("l11").style.marginLeft = "0px");
+        blok.value.toString().charAt(11) == " "
+          ? (document.getElementById("l12").style.marginLeft = "5px")
+          : (document.getElementById("l12").style.marginLeft = "0px");
+        blok.value.toString().charAt(12) == " "
+          ? (document.getElementById("l13").style.marginLeft = "5px")
+          : (document.getElementById("l13").style.marginLeft = "0px");
+        blok.value.toString().charAt(13) == " "
+          ? (document.getElementById("l14").style.marginLeft = "5px")
+          : (document.getElementById("l14").style.marginLeft = "0px");
+        blok.value.toString().charAt(14) == " "
+          ? (document.getElementById("l15").style.marginLeft = "5px")
+          : (document.getElementById("l15").style.marginLeft = "0px");
+        blok.value.toString().charAt(15) == " "
+          ? (document.getElementById("l16").style.marginLeft = "5px")
+          : (document.getElementById("l16").style.marginLeft = "0px");
+        blok.value.toString().charAt(16) == " "
+          ? (document.getElementById("l17").style.marginLeft = "5px")
+          : (document.getElementById("l17").style.marginLeft = "0px");
+        blok.value.toString().charAt(17) == " "
+          ? (document.getElementById("l18").style.marginLeft = "5px")
+          : (document.getElementById("l18").style.marginLeft = "0px");
+        blok.value.toString().charAt(18) == " "
+          ? (document.getElementById("l19").style.marginLeft = "5px")
+          : (document.getElementById("l19").style.marginLeft = "0px");
+        blok.value.toString().charAt(19) == " "
+          ? (document.getElementById("l20").style.marginLeft = "5px")
+          : (document.getElementById("l20").style.marginLeft = "0px");
+        blok.value.toString().charAt(20) == " "
+          ? (document.getElementById("l21").style.marginLeft = "5px")
+          : (document.getElementById("l21").style.marginLeft = "0px");
+        blok.value.toString().charAt(21) == " "
+          ? (document.getElementById("l22").style.marginLeft = "5px")
+          : (document.getElementById("l22").style.marginLeft = "0px");
+        blok.value.toString().charAt(22) == " "
+          ? (document.getElementById("l23").style.marginLeft = "5px")
+          : (document.getElementById("l23").style.marginLeft = "0px");
+        blok.value.toString().charAt(23) == " "
+          ? (document.getElementById("l24").style.marginLeft = "5px")
+          : (document.getElementById("l24").style.marginLeft = "0px");
+        blok.value.toString().charAt(24) == " "
+          ? (document.getElementById("l25").style.marginLeft = "5px")
+          : (document.getElementById("l25").style.marginLeft = "0px");
+        blok.value.toString().charAt(25) == " "
+          ? (document.getElementById("l26").style.marginLeft = "5px")
+          : (document.getElementById("l26").style.marginLeft = "0px");
+        blok.value.toString().charAt(26) == " "
+          ? (document.getElementById("l27").style.marginLeft = "5px")
+          : (document.getElementById("l27").style.marginLeft = "0px");
+        blok.value.toString().charAt(27) == " "
+          ? (document.getElementById("l28").style.marginLeft = "5px")
+          : (document.getElementById("l28").style.marginLeft = "0px");
+        blok.value.toString().charAt(28) == " "
+          ? (document.getElementById("l29").style.marginLeft = "5px")
+          : (document.getElementById("l29").style.marginLeft = "0px");
+        blok.value.toString().charAt(29) == " "
+          ? (document.getElementById("l30").style.marginLeft = "5px")
+          : (document.getElementById("l30").style.marginLeft = "0px");
+
+        if (count == 1) document.getElementById("blok").classList.add("anime");
+        if (count2 == 1) document.getElementById("bl").classList.add("anime");
+        if (count3 == 1) document.getElementById("l3").classList.add("anime");
+        if (count4 == 1) document.getElementById("l4").classList.add("anime");
+        if (count5 == 1) document.getElementById("l5").classList.add("anime");
+        if (count6 == 1) document.getElementById("l6").classList.add("anime");
+        if (count7 == 1) document.getElementById("l7").classList.add("anime");
+        if (count8 == 1) document.getElementById("l8").classList.add("anime");
+        if (count9 == 1) document.getElementById("l9").classList.add("anime");
+        if (count10 == 1) document.getElementById("l10").classList.add("anime");
+        if (count11 == 1) document.getElementById("l11").classList.add("anime");
+        if (count12 == 1) document.getElementById("l12").classList.add("anime");
+        if (count13 == 1) document.getElementById("l13").classList.add("anime");
+        if (count14 == 1) document.getElementById("l14").classList.add("anime");
+        if (count15 == 1) document.getElementById("l15").classList.add("anime");
+        if (count16 == 1) document.getElementById("l16").classList.add("anime");
+        if (count17 == 1) document.getElementById("l17").classList.add("anime");
+        if (count18 == 1) document.getElementById("l18").classList.add("anime");
+        if (count19 == 1) document.getElementById("l19").classList.add("anime");
+        if (count20 == 1) document.getElementById("l20").classList.add("anime");
+        if (count21 == 1) document.getElementById("l21").classList.add("anime");
+        if (count22 == 1) document.getElementById("l22").classList.add("anime");
+        if (count23 == 1) document.getElementById("l23").classList.add("anime");
+        if (count24 == 1) document.getElementById("l24").classList.add("anime");
+        if (count25 == 1) document.getElementById("l25").classList.add("anime");
+        if (count26 == 1) document.getElementById("l26").classList.add("anime");
+        if (count27 == 1) document.getElementById("l27").classList.add("anime");
+        if (count28 == 1) document.getElementById("l28").classList.add("anime");
+        if (count29 == 1) document.getElementById("l29").classList.add("anime");
+        if (count30 == 1) document.getElementById("l30").classList.add("anime");
+
+        setTimeout(function () {
+          if (count2 == 0)
+            document.getElementById("blok").classList.remove("anime");
+          if (count == 0)
+            document.getElementById("bl").classList.remove("anime");
+          if (count3 == 0)
+            document.getElementById("l3").classList.remove("anime");
+          if (count4 == 0)
+            document.getElementById("l4").classList.remove("anime");
+          if (count5 == 0)
+            document.getElementById("l5").classList.remove("anime");
+          if (count6 == 0)
+            document.getElementById("l6").classList.remove("anime");
+          if (count7 == 0)
+            document.getElementById("l7").classList.remove("anime");
+          if (count8 == 0)
+            document.getElementById("l8").classList.remove("anime");
+          if (count9 == 0)
+            document.getElementById("l9").classList.remove("anime");
+          if (count10 == 0)
+            document.getElementById("l10").classList.remove("anime");
+          if (count11 == 0)
+            document.getElementById("l11").classList.remove("anime");
+          if (count12 == 0)
+            document.getElementById("l12").classList.remove("anime");
+          if (count13 == 0)
+            document.getElementById("l13").classList.remove("anime");
+          if (count14 == 0)
+            document.getElementById("l14").classList.remove("anime");
+          if (count15 == 0)
+            document.getElementById("l15").classList.remove("anime");
+          if (count16 == 0)
+            document.getElementById("l16").classList.remove("anime");
+          if (count17 == 0)
+            document.getElementById("l17").classList.remove("anime");
+          if (count18 == 0)
+            document.getElementById("l18").classList.remove("anime");
+          if (count19 == 0)
+            document.getElementById("l19").classList.remove("anime");
+          if (count20 == 0)
+            document.getElementById("l20").classList.remove("anime");
+          if (count21 == 0)
+            document.getElementById("l21").classList.remove("anime");
+          if (count22 == 0)
+            document.getElementById("l22").classList.remove("anime");
+          if (count23 == 0)
+            document.getElementById("l23").classList.remove("anime");
+          if (count24 == 0)
+            document.getElementById("l24").classList.remove("anime");
+          if (count25 == 0)
+            document.getElementById("l25").classList.remove("anime");
+          if (count26 == 0)
+            document.getElementById("l26").classList.remove("anime");
+          if (count27 == 0)
+            document.getElementById("l27").classList.remove("anime");
+          if (count28 == 0)
+            document.getElementById("l28").classList.remove("anime");
+          if (count29 == 0)
+            document.getElementById("l29").classList.remove("anime");
+          if (count30 == 0)
+            document.getElementById("l30").classList.remove("anime");
+        }, 100);
+
+        console.log(count);
+      });
+
+      var countvld1 = 0;
+      var countvld2 = 0;
+      var countvld3 = 0;
+      var countvld4 = 0;
+
+      document.getElementById("date").addEventListener("input", function () {
+        document.getElementById("vld1").innerText = this.value;
+
+        this.value.toString().charAt(0) != "" ? countvld1++ : (countvld1 = 0);
+
+        document.getElementById("vld1").classList.add("anime");
+
+        setTimeout(function () {
+          document.getElementById("vld1").classList.remove("anime");
+          document.getElementById("vld2").classList.remove("anime");
+          document.getElementById("vld3").classList.remove("anime");
+          document.getElementById("vld4").classList.remove("anime");
+        }, 500);
+      });
+
+      document.getElementById("date2").addEventListener("input", function () {
+        document.getElementById("vld2").innerText = this.value;
+
+        this.value.toString().charAt(0) != "" ? countvld2++ : (countvld1 = 0);
+
+        document.getElementById("vld2").classList.add("anime");
+
+        setTimeout(function () {
+          document.getElementById("vld2").classList.remove("anime");
+        }, 500);
+      });
+
+      var countcvc = 0;
+      document
+        .getElementById("txtmonth")
+        .addEventListener("click", function () {
+          frontflip.restart();
+          document.getElementById("front").style.backgroundImage =
+            "url(backside.PNG)";
+          document.getElementById("numb").style.opacity = "0";
+          document.getElementById("month").style.opacity = "0";
+          document.getElementById("blokk").style.opacity = "0";
+          document.getElementById("cvc").style.opacity = "1";
+          countcvc = 1;
+        });
+
+      document.getElementById("front").addEventListener("click", function () {
+        frontflip.restart();
+        document.getElementById("front").style.backgroundImage =
+          "url(credit.PNG)";
+        document.getElementById("numb").style.opacity = "1";
+        document.getElementById("month").style.opacity = "1";
+        document.getElementById("blokk").style.opacity = "1";
+        document.getElementById("cvc").style.opacity = "0";
+      });
+
+      var countcvc1 = 0;
+      var countcvc2 = 0;
+      var countcvc3 = 0;
+      document
+        .getElementById("txtmonth")
+        .addEventListener("input", function () {
+          document.getElementById("c1").innerText = this.value
+            .toString()
+            .charAt(0);
+          document.getElementById("c2").innerText = this.value
+            .toString()
+            .charAt(1);
+          document.getElementById("c3").innerText = this.value
+            .toString()
+            .charAt(2);
+
+          this.value.toString().charAt(0) != ""
+            ? (countcvc1 = 1)
+            : (countcvc1 = 0);
+          this.value.toString().charAt(1) != ""
+            ? (countcvc2 = 1)
+            : (countcvc2 = 0);
+          this.value.toString().charAt(2) != ""
+            ? (countcvc3 = 1)
+            : (countcvc3 = 0);
+
+          if (countcvc1 == 1)
+            document.getElementById("c1").classList.add("anime");
+          if (countcvc2 == 1)
+            document.getElementById("c2").classList.add("anime");
+          if (countcvc3 == 1)
+            document.getElementById("c3").classList.add("anime");
+
+          setTimeout(function () {
+            if (countcvc1 == 0)
+              document.getElementById("c1").classList.remove("anime");
+            if (countcvc2 == 0)
+              document.getElementById("c2").classList.remove("anime");
+            if (countcvc3 == 0)
+              document.getElementById("c3").classList.remove("anime");
+          }, 100);
+        });
+    </script>
+  </body>
+</html>
