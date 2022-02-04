@@ -1,0 +1,1334 @@
+#main{
+    position: absolute;
+    width:100%;
+    height:500px;
+
+    margin-left: -10px;
+    margin-top: 0;
+    margin-right:10px;
+    background-image: url(IMAGE.png);
+}
+#logo{
+    position: absolute;
+height: 26px;
+left: 16%;
+
+top: 20px;
+
+font-family: Lora;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+#bar{
+    display: flex;
+    margin-left:60%;
+    margin-top:30px;
+    letter-spacing: 0.6px;
+    font-size: 13px;
+    gap:19px;
+    color: #FFFFFF;
+}
+
+#maintext{
+    font-size: 45px;
+    color:white;
+    position: absolute;
+    margin-left: 32%;
+    margin-top: 8%;
+    letter-spacing: 2px;
+}
+
+#secondtext{
+    position: absolute;
+    margin-left: 32%;
+    margin-top: 13%;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+#mainbutton{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 43%;
+height: 50px;
+left: 0%;
+right: 0%;
+top: 0px;
+width:200px;
+background: #DD783F;
+border-radius: 3px;
+border:none;
+font-size: 16px;
+color:white
+}
+
+#mainfooter{
+    width:100%;
+    height:85px;
+    
+    display: flex;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 501px;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.fottitm{
+     height:20px;
+     
+     font-size: 15px;
+     color:#768088;
+     
+}
+
+#chldmainfooter{
+    display: flex;
+  
+   height:20px;
+   justify-self: center;
+   gap:105px;
+  
+   
+}
+
+#next{
+    width:101%;
+    height:1250px;
+    position: absolute;
+   
+    margin-top: 620px;
+    margin-left: -22px;
+    background: #F7F7F7;
+    
+    
+}
+
+#nextmaintext{
+    position: absolute;
+
+height: 27px;
+left: calc(50% - 161px/2 + 0.5px);
+top: 60px;
+display: flex;
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+/* identical to box height, or 135% */
+text-align: center;
+letter-spacing: 2px;
+
+color: #2E2E2E;
+
+
+}
+#line{
+    position: absolute;
+height: 1px;
+left: 40%;
+right: 40%;
+top: 103px;
+
+background: #DEDEDE;
+border-radius: 0px;
+}
+
+#blok{
+    display:flex;
+   
+    align-self: center;
+    justify-content: center;
+    margin-top: 123px;
+    gap:25px;
+    
+
+}
+.inblok{flex-direction: column;
+    width:460px;
+    height:280px;
+    
+    display: flex;
+    background-image: url(IMAGEee.png);
+}
+
+#blokhead{
+  
+height: 30px;
+margin-left: 20px;
+margin-top: 157px;
+display: table;
+font-family: Lora;
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 30px;
+
+color:white;
+
+/* identical to box height, or 111% */
+}
+
+#bloktext{
+    position: absolute;
+    height: 25px;
+margin-top: 193px;
+margin-left: 20px;
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 25px;
+color:white;
+}
+
+#blokavatar{
+    position: absolute;
+height: 26px;
+width:26px;
+
+margin-top: 235px;
+margin-left: 20px;
+background: url(IMAGEmat.png);
+border-radius: 60px;
+}
+
+#blokname{
+    position: absolute;
+   display: table;
+ 
+    margin-top: 238px;
+    margin-left: 60px;
+    color:white;
+}
+
+#blokdata{
+    position: absolute;
+    display: table;
+  
+     margin-top: 242px;
+     margin-left: 320px;
+     font-size: 12px;
+     color:white;
+}
+
+#blokhead2{
+  
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 157px;
+    display: table;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 30px;
+   
+    color:white;
+    
+    /* identical to box height, or 111% */
+    }
+    
+    #bloktext2{
+        position: absolute;
+        height: 25px;
+    margin-top: 193px;
+    margin-left: 20px;
+    
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color:white;
+    }
+    
+    #blokavatar2{
+        position: absolute;
+    height: 26px;
+    width:26px;
+    
+    margin-top: 235px;
+    margin-left: 20px;
+    background: url(IMAGEwill.png);
+    border-radius: 60px;
+    }
+    
+    #blokname2{
+        position: absolute;
+       display: table;
+       
+        margin-top: 238px;
+        margin-left: 60px;
+        color:white;
+    }
+    
+    #blokdata2{
+        position: absolute;
+        display: table;
+         
+         margin-top: 242px;
+         margin-left: 320px;
+         font-size: 12px;
+         color:white;
+    }
+    #inblok2{
+        background-image: url(IMAGE2.png);
+    }
+    #scdnexthead{
+        position: absolute;
+       
+        display: table;
+        
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 27px;
+        left: calc(50% - 161px/2 + 0.5px);
+        top:460px;
+        /* identical to box height, or 135% */
+        text-align: center;
+        letter-spacing: 2px;
+        
+        color: #2E2E2E;
+    }
+
+    #line2{
+        position: absolute;
+        height: 1px;
+        left: 40%;
+        right: 40%;
+        top: 510px;
+        
+        background: #DEDEDE;
+        border-radius: 0px;
+    }
+
+    #scdnext{
+        width:auto;
+        height:auto;
+        position:absolute;
+        
+        margin-left: 178px;
+        margin-top: 150px;
+        display: grid;
+        grid-template-columns:  296px 296px 296px  ;
+        grid-row-gap: 15px;
+        grid-column-gap: 30px;
+       
+    }
+
+    .nxt2itm{
+       
+        height: 300px;
+        background-color: rgba(220, 224, 159, 0.719);
+      border-radius:20px;
+      
+    }
+    #oneblokimg{
+        background-image: url(IMAGEbl1.png);
+        height: 150px;
+        
+    }
+    #oneblokhead{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #onebloktext{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #oneblokavatar{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        
+        border-radius: 60px;
+        margin-top: 60px;
+        margin-left: 10px;
+        background-image: url(IMAGEwill.png);
+    }
+    #oneblokname{
+        display: table;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 63px;
+    }
+    #oneblokdata{
+        position: absolute;
+        display: table;
+        font-size: 13px;
+        margin-left: 220px;
+        margin-top: 63px;
+    }
+
+    #oneblokimg2{
+        
+        height: 150px;
+       
+        background-image: url(IMAGEbl2.png);
+    }
+    #oneblokhead2{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #onebloktext2{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #oneblokavatar2{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+     
+        border-radius: 60px;
+        margin-top: 45px;
+        margin-left: 10px;
+        background-image: url(IMAGEwill.png);
+    }
+    #oneblokname2{
+        display: table;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+    #oneblokdata2{
+        position: absolute;
+        display: table;
+        font-size: 13px;
+        margin-left: 220px;
+        margin-top: 50px;
+    }
+
+    #oneblokimg3{
+        
+        height: 150px;
+        
+        background-image: url(IMAGEbl3.png);
+    }
+    #oneblokhead3{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #onebloktext3{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #oneblokavatar3{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+     
+        border-radius: 60px;
+        margin-top: 45px;
+        margin-left: 10px;
+        background-image: url(IMAGEwill.png);
+    }
+    #oneblokname3{
+        display: table;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+    #oneblokdata3{
+        position: absolute;
+        display: table;
+        font-size: 13px;
+        margin-left: 220px;
+        margin-top: 52px;
+    }
+
+    #oneblokimg4{
+        
+        height: 150px;
+       
+        background-image: url(IMAGEbl4.png);
+    }
+    #oneblokhead4{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #onebloktext4{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #oneblokavatar4{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        
+        border-radius: 60px;
+        margin-top: 45px;
+        margin-left: 10px;
+        background-image: url(IMAGEwill.png);
+    }
+    #oneblokname4{
+        display: table;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 52px;
+    }
+    #oneblokdata4{
+        position: absolute;
+        display: table;
+        font-size: 13px;
+        margin-left: 220px;
+        margin-top: 53px;
+    }
+
+    #oneblokimg5{
+        
+        height: 150px;
+       
+        background-image: url(IMAGEbl5.png);
+    }
+    #oneblokhead5{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #onebloktext5{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #oneblokavatar5{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+       
+        border-radius: 60px;
+        margin-top: 60px;
+        margin-left: 10px;
+        background-image: url(IMAGEwill.png);
+    }
+    #oneblokname5{
+        display: table;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 63px;
+    }
+    #oneblokdata5{
+        position: absolute;
+        display: table;
+        font-size: 13px;
+        margin-left: 220px;
+        margin-top: 63px;
+    }
+
+    #oneblokimg6{
+        
+        height: 150px;
+        
+        background-image: url(IMAGEbl6.png);
+    }
+    #oneblokhead6{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #onebloktext6{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #oneblokavatar6{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+       
+        border-radius: 60px;
+        margin-top: 45px;
+        margin-left: 10px;
+        background-image: url(IMAGEwill.png);
+    }
+    #oneblokname6{
+        display: table;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 52px;
+    }
+    #oneblokdata6{
+        position: absolute;
+        display: table;
+        font-size: 13px;
+        margin-left: 220px;
+        margin-top: 52px;
+    }
+    
+    #prefooter{
+        position: absolute;
+height: 258px;
+left: 0%;
+right: 0%;
+top: 1980px;
+
+background: url(IMAGEfooter.png), #4D565D;
+border-radius: 0px;
+
+    }
+
+    #footer{
+        position: absolute;
+height: 69px;
+left: 0%;
+right: 0%;
+top: 188px;
+
+background: rgba(35, 47, 56, 0.6);
+
+    }
+
+    #logo2{
+        position: absolute;
+height: 26px;
+left: 16%;
+
+top:25px;
+
+font-family: Lora;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 26px;
+color: #FFFFFF;
+
+    }
+
+    #foottext{
+        margin-left: 500px;
+        font-size: 25px;
+        color: white;
+        margin-top: 25px;
+    }
+
+    #footline{
+        position: absolute;
+height: 1px;
+left: 36%;
+right: 45%;
+top: 76px;
+
+background: #DEDEDE;
+border-radius: 0px;
+    }
+
+    #footsearch{
+        width: 420px;
+        height:50px;
+       
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 370px;
+        display: flex;
+    }
+
+    #inp{
+        height: 43px;
+        width: 320px;
+    }
+
+    #btn{
+     
+        height:48px;
+        width:100px;
+        border-radius: none;
+        border: none;
+       
+        background: rgba(255, 255, 255, 0.28);
+border-radius: 0px 3px 3px 0px;
+color:white;
+    }
+
+    #bar2{
+            display: flex;
+            gap:20px;
+            color:white;
+            margin-left: 800px;
+            margin-top: 30px;
+    }
+
+    a{
+        color:white;
+    }
+
+    @media screen and (max-width: 414px) {
+        #main{
+            position: absolute;
+            width:100%;
+            height:500px;
+            
+            margin-left: -10px;
+            margin-top: 0;
+            margin-right:10px;
+            background-image: url(IMAGE.png);
+        }
+        #logo{
+            position: absolute;
+        height: 26px;
+        left: 70%;
+        
+       top:5px;
+        
+        font-family: Lora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 26px;
+        color: #FFFFFF;
+        }
+        
+        #bar{
+            display: flex;
+            margin-left:70%;
+            margin-top:50px;
+            letter-spacing: 0.6px;
+            font-size: 13px;
+            gap:19px;
+            color: #FFFFFF;
+            flex-direction: column;
+        }
+        
+        #maintext{
+            font-size: 45px;
+            color:white;
+            position: absolute;
+            margin-left: 20%;
+            margin-top: 8%;
+            letter-spacing: 2px;
+        }
+        
+        #secondtext{
+            position: absolute;
+            margin-left: 10%;
+            margin-top: 39%;
+            font-size: 15px;
+            color: #FFFFFF;
+            opacity: 0.6;
+            display: table;
+        }
+        
+        #mainbutton{
+            position: absolute;
+            margin-top: 99%;
+            margin-left: 26%;
+        height: 50px;
+        left: 0%;
+        right: 0%;
+        top: 0px;
+        width:200px;
+        background: #DD783F;
+        border-radius: 3px;
+        
+        font-size: 16px;
+        color:white
+        }
+        
+        #mainfooter{
+            width:100%;
+            height:85px;
+           
+            display: flex;
+            position: absolute;
+            margin-left: -10px;
+            margin-top: 501px;
+            align-items: center;
+            justify-content: center;
+            
+           
+            
+        }
+        .fottitm{
+             height:20px;
+           
+             font-size: 15px;
+             color:#768088;
+             
+        }
+        
+        #chldmainfooter{
+            display: none;
+     
+           height:20px;
+           justify-self: center;
+           gap:10px;
+           flex-direction: column;
+           margin-top: 0px;
+           
+          
+           
+        }
+        
+        #next{
+            width:101%;
+            height:2800px;
+            position: absolute;
+            
+            margin-top: 500px;
+            margin-left: -22px;
+            background: #F7F7F7;
+            
+            
+        }
+        
+        #nextmaintext{
+            position: absolute;
+        
+        height: 27px;
+        left: calc(50% - 161px/2 + 0.5px);
+        top: 60px;
+        display: flex;
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 27px;
+        
+        /* identical to box height, or 135% */
+        text-align: center;
+        letter-spacing: 2px;
+        
+        color: #2E2E2E;
+        
+        
+        }
+        #line{
+            position: absolute;
+        height: 1px;
+        left: 40%;
+        right: 40%;
+        top: 103px;
+        
+        background: #DEDEDE;
+        border-radius: 0px;
+        }
+        
+        #blok{
+            display:flex;
+    
+            align-self: center;
+            justify-content: center;
+            margin-top: 123px;
+            gap:25px;
+            flex-direction: column;
+            
+        
+        }
+        .inblok{flex-direction: column;
+            width:410px;
+            height:280px;
+            
+            display: flex;
+            background-image: url(IMAGEee.png);
+        }
+        
+        #blokhead{
+          
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 157px;
+        display: table;
+        font-family: Lora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 30px;
+      
+        color:white;
+        
+        /* identical to box height, or 111% */
+        }
+        
+        #bloktext{
+            position: absolute;
+            height: 25px;
+        margin-top: 193px;
+        margin-left: 20px;
+        
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 25px;
+        color:white;
+        }
+        
+        #blokavatar{
+            position: absolute;
+        height: 26px;
+        width:26px;
+      
+        margin-top: 235px;
+        margin-left: 20px;
+        background: url(IMAGEmat.png);
+        border-radius: 60px;
+        }
+        
+        #blokname{
+            position: absolute;
+           display: table;
+            
+            margin-top: 238px;
+            margin-left: 60px;
+            color:white;
+        }
+        
+        #blokdata{
+            position: absolute;
+            display: table;
+            
+             margin-top: 242px;
+             margin-left: 320px;
+             font-size: 12px;
+             color:white;
+        }
+        
+        #blokhead2{
+          
+            height: 30px;
+            margin-left: 20px;
+            margin-top: 157px;
+            display: table;
+            font-family: Lora;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 27px;
+            line-height: 30px;
+         
+            color:white;
+            
+            /* identical to box height, or 111% */
+            }
+            
+            #bloktext2{
+                position: absolute;
+                height: 25px;
+            margin-top: 193px;
+            margin-left: 20px;
+            
+            font-family: Oxygen;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 25px;
+            color:white;
+            }
+            
+            #blokavatar2{
+                position: absolute;
+            height: 26px;
+            width:26px;
+            
+            margin-top: 235px;
+            margin-left: 20px;
+            background: url(IMAGEwill.png);
+            border-radius: 60px;
+            }
+            
+            #blokname2{
+                position: absolute;
+               display: table;
+            
+                margin-top: 238px;
+                margin-left: 60px;
+                color:white;
+            }
+            
+            #blokdata2{
+                position: absolute;
+                display: table;
+             
+                 margin-top: 242px;
+                 margin-left: 320px;
+                 font-size: 12px;
+                 color:white;
+            }
+            #inblok2{
+                background-image: url(IMAGE2.png);
+            }
+            #scdnexthead{
+                position: absolute;
+               
+                display: table;
+                margin-top: 300px;
+                font-family: Oxygen;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 27px;
+                left: calc(50% - 161px/2 + 0.5px);
+                top:460px;
+                /* identical to box height, or 135% */
+                text-align: center;
+                letter-spacing: 2px;
+                
+                color: #2E2E2E;
+            }
+        
+            #line2{
+                position: absolute;
+                height: 1px;
+                left: 40%;
+                right: 40%;
+                top: 810px;
+                width: 100px;
+                
+                background: #DEDEDE;
+                border-radius: 0px;
+            }
+        
+            #scdnext{
+                width:auto;
+                height:auto;
+                position:absolute;
+              
+                margin-left: 70px;
+                margin-top: 150px;
+                display: grid;
+                grid-template-columns:  296px  ;
+                grid-row-gap: 15px;
+                grid-column-gap: 30px;
+               
+            }
+        
+            .nxt2itm{
+               
+                height: 300px;
+           
+              
+              
+            }
+            #oneblokimg{
+                
+                height: 150px;
+            
+            }
+            #oneblokhead{
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #onebloktext{
+                font-size: 12px;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #oneblokavatar{
+                position: absolute;
+                width: 26px;
+                height: 26px;
+              
+                border-radius: 60px;
+                margin-top: 60px;
+                margin-left: 10px;
+            }
+            #oneblokname{
+                display: table;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: 63px;
+            }
+            #oneblokdata{
+                position: absolute;
+                display: table;
+                font-size: 13px;
+                margin-left: 220px;
+                margin-top: 63px;
+            }
+        
+            #oneblokimg2{
+                
+                height: 150px;
+            
+            }
+            #oneblokhead2{
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #onebloktext2{
+                font-size: 12px;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #oneblokavatar2{
+                position: absolute;
+                width: 26px;
+                height: 26px;
+            
+                border-radius: 60px;
+                margin-top: 50px;
+                margin-left: 10px;
+            }
+            #oneblokname2{
+                display: table;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: 53px;
+            }
+            #oneblokdata2{
+                position: absolute;
+                display: table;
+                font-size: 13px;
+                margin-left: 220px;
+                margin-top: 53px;
+            }
+        
+            #oneblokimg3{
+                
+                height: 150px;
+             
+            }
+            #oneblokhead3{
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #onebloktext3{
+                font-size: 12px;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #oneblokavatar3{
+                position: absolute;
+                width: 26px;
+                height: 26px;
+              
+                border-radius: 60px;
+                margin-top: 50px;
+                margin-left: 10px;
+            }
+            #oneblokname3{
+                display: table;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: 53px;
+            }
+            #oneblokdata3{
+                position: absolute;
+                display: table;
+                font-size: 13px;
+                margin-left: 220px;
+                margin-top: 53px;
+            }
+        
+            #oneblokimg4{
+                
+                height: 150px;
+              
+            }
+            #oneblokhead4{
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #onebloktext4{
+                font-size: 12px;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #oneblokavatar4{
+                position: absolute;
+                width: 26px;
+                height: 26px;
+                
+                border-radius: 60px;
+                margin-top: 50px;
+                margin-left: 10px;
+            }
+            #oneblokname4{
+                display: table;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: 53px;
+            }
+            #oneblokdata4{
+                position: absolute;
+                display: table;
+                font-size: 13px;
+                margin-left: 220px;
+                margin-top: 53px;
+            }
+        
+            #oneblokimg5{
+                
+                height: 150px;
+              
+            }
+            #oneblokhead5{
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #onebloktext5{
+                font-size: 12px;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #oneblokavatar5{
+                position: absolute;
+                width: 26px;
+                height: 26px;
+              
+                border-radius: 60px;
+                margin-top: 60px;
+                margin-left: 10px;
+            }
+            #oneblokname5{
+                display: table;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: 63px;
+            }
+            #oneblokdata5{
+                position: absolute;
+                display: table;
+                font-size: 13px;
+                margin-left: 220px;
+                margin-top: 63px;
+            }
+        
+            #oneblokimg6{
+                
+                height: 150px;
+             
+            }
+            #oneblokhead6{
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #onebloktext6{
+                font-size: 12px;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            #oneblokavatar6{
+                position: absolute;
+                width: 26px;
+                height: 26px;
+                
+                border-radius: 60px;
+                margin-top: 50px;
+                margin-left: 10px;
+            }
+            #oneblokname6{
+                display: table;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: 53px;
+            }
+            #oneblokdata6{
+                position: absolute;
+                display: table;
+                font-size: 13px;
+                margin-left: 220px;
+                margin-top: 53px;
+            }
+            
+            #prefooter{
+                position: absolute;
+        height: 258px;
+        left: 0%;
+        right: 0%;
+        top: 3280px;
+        
+        background: url(IMAGEfooter.png), #4D565D;
+        border-radius: 0px;
+        
+            }
+        
+            #footer{
+                position: absolute;
+        height: 69px;
+        left: 0%;
+        right: 0%;
+        top: 188px;
+        
+        background: rgba(35, 47, 56, 0.6);
+        border-radius: 0px;
+            }
+        
+            #logo2{
+                position: absolute;
+        height: 26px;
+        left: 16%;
+        
+        top:25px;
+        
+        font-family: Lora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 26px;
+        color: #FFFFFF;
+        
+            }
+        
+            #foottext{
+                margin-left: 500px;
+                font-size: 25px;
+                color: white;
+                margin-top: s25px;
+            }
+        
+            #footline{
+                position: absolute;
+        height: 1px;
+        left: 36%;
+        right: 45%;
+        top: 80px;
+        width:100px;
+        
+        background: #DEDEDE;
+        border-radius: 0px;
+            }
+        
+            #footsearch{
+                width: 380px;
+                height:50px;
+            
+                position: absolute;
+                margin-top: 80px;
+                margin-left: 10px;
+                display: flex;
+            }
+        
+            #inp{
+                height: 43px;
+                width: 320px;
+            }
+        
+            #btn{
+             
+                height:48px;
+                width:100px;
+                border-radius: none;
+                border: none;
+                background: rgba(255, 255, 255, 0.28);
+        border-radius: 0px 3px 3px 0px;
+        color:white;
+        
+    }
+#bar2{
+    display: flex;
+    flex-direction: column;
+}
+    .baritem2{
+        color:rgb(255, 255, 255);
+        margin-top: -120px;
+        margin-left:-650px;
+        
+    }
+
+    #logo2{
+        margin-left: 80px;
+        margin-top: -180px;
+    }
+}
