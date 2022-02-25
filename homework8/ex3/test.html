@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+  <style>
+    body{
+      background-color: rgb(29, 29, 29);
+    }
+    #srch{
+      margin-top: 300px;
+      height: 40px;
+      width:500px;
+      border-radius: 50px;
+      border:2px solid white;
+      background-color: rgb(36, 35, 35);
+      color: white;
+      margin-left: 350px;
+    }
+    #find{
+      margin-top: 302px;
+      height:40px;
+      position: absolute;
+      margin-left: 10px;
+      background-color: rgb(77, 77, 77);
+     
+      width: 150px;
+      border-radius: 12px;
+      font-size: 17px;
+      color:white;
+      border:1px solid #143525;
+    }
+
+    #list{
+      margin-top: 150px;
+      margin-left:105px;
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+    }
+    #navpage{
+      visibility: hidden;
+      width:50px;
+      border-radius: 5px;
+      border:2px solid white;
+      background-color: rgb(77, 77, 77);
+      color:white;
+    }
+    #subpage{
+      visibility: hidden;
+    }
+    input[type=number] {
+  -moz-appearance:textfield;
+  
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#next{
+  visibility: hidden;
+}
+
+#pages{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: -350px;
+  visibility: hidden;
+}
+  </style>
+   
+    <input type="text" id="srch">
+    <span id="pages"></span>
+    <button id="find">Book Search</button>
+    <input type="number" id="navpage" placeholder="Page">
+    <button id="subpage">Go</button>
+    
+    
+  <ul id = list></ul>
+
+
+
+<script  src="./test.js"></script>
+</body>
+</html>
